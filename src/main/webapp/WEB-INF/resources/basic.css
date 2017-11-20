@@ -1,0 +1,33 @@
+.home-header {
+    background-color: salmon;
+    font-style: normal;
+    font-family: "Tekton Pro Cond";
+}
+
+.details-table {
+    background-color: cadetblue;
+    font-family: "Tekton Pro Cond";
+}
+
+.fancy-div {
+    font-family: "Adobe Arabic";
+    background-color: blanchedalmond;
+}
+
+tr td .fancy-table {
+    font-family: "Adobe Arabic";
+    background-color: antiquewhite;
+    width: 500px;
+}
+
+td {
+    text-align: center;
+}
+
+ul {
+    list-style: square;
+}
+
+.errorMsg {
+    color: red;
+}

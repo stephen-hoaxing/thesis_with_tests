@@ -19,7 +19,7 @@
     <table class="table table-bordered">
         <tr>
             <td>Room number:</td>
-            <td>${room.number}</td>
+            <td>${room.number}<c:if test="${room.isAccessibleByWheelchair()}"> &#x267f;</c:if></td>
         </tr>
         <tr>
             <td>Room type:</td>

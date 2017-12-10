@@ -18,7 +18,7 @@
     <div class="from-group col-lg-6">
     <form action="getnavigationdetails" method="get">
     <p class="errorMsg">${errorMsg}</p>
-        <label for="from">From: </label>
+        <label for="from">Start: </label>
                     <select name="start" id="from" class="form-control">
                         <c:forEach var="room" items="${rooms}">
                             <option value="${room.id}">${room.name} (Room ${room.number})</option>
@@ -28,7 +28,7 @@
                         </c:forEach>
                     </select>
         <br>
-        <label for="end">End: </label>
+        <label for="end">Destination: </label>
                     <select name="end" id="end" class="form-control">
                         <c:forEach var="room" items="${rooms}">
                             <option value="${room.id}">${room.name} (Room ${room.number})</option>

@@ -44,6 +44,7 @@ public class RoomService {
         return roomRepo.getShortestPath(start, end);
     }
 
+    @Transactional
     public Iterable<Map<String, String[]>> getShortestPathWithAccessFeature(Long start, Long end) {
         return roomRepo.getShortestPathWithDisability(start, end);
     }

@@ -42,4 +42,7 @@ public class PoiService {
         return poiRepo.findAll();
     }
 
+    @Transactional
+    public void savePoi(PointOfInterest poi) { poiRepo.save(poi); }
+
 }

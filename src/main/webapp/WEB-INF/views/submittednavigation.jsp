@@ -21,6 +21,9 @@
         <a href="roomlist" class="btn btn-success">Back to Rooms</a>
     </div>
     <br><br>
+    <c:if test="${empty stations}">
+        <div class="alert alert-warning">The two endpoints are not connected</div>
+    </c:if>
     <ul class="list-group">
         <c:forEach var="station" items="${stations}">
             <li class="list-group-item">${station}</li>

@@ -32,11 +32,11 @@ public interface RoomRepo extends GraphRepository<Room> {
             "WITH nodes(p) as nds return nds")
     public Iterable<Map<String, List<Map<String, Object>>>> getShortestPath(@Param("start") Long start, @Param("end") Long end);*/
 
-    @Query("MATCH p = shortestPath((start)-[*]-(end))" +
+    @Query("MATCH p = allShortestPaths((start)-[*]-(end))" +
             "WHERE id(start)={start} AND id(end)={end} " +
             "WITH nodes(p) as nds " +
             "WHERE ALL (n in nds WHERE n.isAccessibleByWheelchair=true) " +
-            "RETURN EXTRACT (item in nds | item.name) as names")
+            "RETURN EXTRACT (item in nds | item.name) as names LIMIT 1")
     public Iterable<Map<String, String[]>> getShortestPathWithDisability(@Param("start") Long start, @Param("end") Long end);
 
 }

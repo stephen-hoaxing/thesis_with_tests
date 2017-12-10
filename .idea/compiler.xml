@@ -25,7 +25,7 @@
         <module name="Spring4Web" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="Spring4Web" target="1.8" />
     </bytecodeTargetLevel>
   </component>

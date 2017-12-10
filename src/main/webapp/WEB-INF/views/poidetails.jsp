@@ -22,7 +22,7 @@
             <th>Connected POIs</th>
         </tr>
         <tr>
-            <td>${poi.name}</td>
+            <td>${poi.name}<c:if test="${poi.isAccessibleByWheelchair()}"> &#x267f;</c:if></td>
             <td>
                 <c:forEach var="p" items="${poi.pois}">
                     ${p.name}<br>

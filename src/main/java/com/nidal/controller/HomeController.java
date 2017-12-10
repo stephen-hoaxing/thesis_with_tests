@@ -1,26 +1,18 @@
 package com.nidal.controller;
 
-import com.nidal.OrganizationService;
 import com.nidal.PoiService;
 import com.nidal.RoomService;
 import com.nidal.loader.Loader;
-import com.nidal.model.Employee;
-import com.nidal.model.Organization;
 import com.nidal.model.PointOfInterest;
 import com.nidal.model.Room;
-import org.neo4j.ogm.model.Result;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.geo.Point;
-import org.springframework.data.neo4j.template.Neo4jOperations;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
@@ -32,18 +24,12 @@ import java.util.Map;
 public class HomeController {
 
     @Autowired
-    OrganizationService organizationService;
-
-    @Autowired
     RoomService roomService;
 
     @Autowired
     PoiService poiService;
 
-    @Autowired
-    Neo4jOperations ops;
-
-    @RequestMapping(value = "/")
+    @RequestMapping(value = "/", method = RequestMethod.GET)
     public ModelAndView home() {
         return new ModelAndView("test");
     }
@@ -76,7 +62,7 @@ public class HomeController {
         return model;
     }
 
-    @RequestMapping("/roomlist")
+    @RequestMapping(value = "/roomlist", method = RequestMethod.GET)
     public ModelAndView getRoomList() {
         List<Room> rooms = new ArrayList<Room>();
         List<PointOfInterest> pois = new ArrayList<PointOfInterest>();
@@ -95,7 +81,7 @@ public class HomeController {
         return model;
     }
 
-    @RequestMapping("/poiinfo")
+    @RequestMapping(value = "/poiinfo", method = RequestMethod.GET)
     public ModelAndView getPoiInfo(@RequestParam("poiid") String poiid) {
 
         ModelAndView model = new ModelAndView("poidetails");
@@ -105,7 +91,7 @@ public class HomeController {
         return model;
     }
 
-    @RequestMapping("/roominfo")
+    @RequestMapping(value = "/roominfo", method = RequestMethod.GET)
     public ModelAndView getRoomInfo(@RequestParam("roomid") String roomid) {
         /*Iterable<Map<String, String[]>> p = roomService.getShortestPath("Entrance", "Hand Surgery");
         for (Map<String, String[]> act : p) {
@@ -124,7 +110,7 @@ public class HomeController {
         return model;
     }
 
-    @RequestMapping("/navigate")
+    @RequestMapping(value = "/navigate", method = RequestMethod.GET)
     public ModelAndView navigationAction() {
         ModelAndView model = new ModelAndView("navigation");
         Iterable<Room> rooms = roomService.getAllRooms();
@@ -162,6 +148,7 @@ public class HomeController {
             addStationsToList(p, stations);
         }
         ModelAndView model = new ModelAndView("submittednavigation");
+        List<String> myList = new ArrayList<String>();
         model.addObject("stations", stations);
         return model;
     }

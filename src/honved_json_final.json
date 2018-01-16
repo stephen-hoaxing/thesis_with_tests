@@ -1,0 +1,2326 @@
+[ {
+  "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#belongsToRoom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/hloc"
+  }, {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc#"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#D1051",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#MedicalImagingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1E1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Gastro Endoscopy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Office" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Leading Consulting Room Office"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Office" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Consulting Room Executive Office"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Office" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Consulting Room Executive Office"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Special Centrum 5th Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1010",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1E2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Optometry Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1011",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Laboratory" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1E1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Laboratory"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1012",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Laboratory" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1E1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Laboratory"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1013",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Medicine Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1014",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Medicine Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1015",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Medicine Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1016",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Medicine Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1017",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Medicine Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1018",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Respiratory"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1019",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Pulmanology Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1020",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Pulmonology Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1021",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Pulmonology Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1022",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Pulmonology Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1023",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Pulmonology Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1024",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Pulmonology Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1025",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Occupational Health Treatment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1026",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Occupational Health Treatment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1027",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Occupational Health Treatment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1028",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Occupational Health Treatment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1029",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1LH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dentistry Treatment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1030",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1RH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dentistry Treatment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1031",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#EmergencyRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1RH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Oral Surgery Clinic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1032",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#EmergencyRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1RH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Oral Surgery Clinic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1033",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#EmergencyRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1RH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Oral Surgery Clinic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1034",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Office" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Conference Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1035",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Special Treatment Center"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1036",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Special Treatment Center"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1037",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Special Treatment Center"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1038",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Special Treatment Center"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1039",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Special Treatment Center"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1040",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Special Treatment Center"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1E1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/iloc/iloc#Elevator", "http://lod.nik.uni-obuda.hu/iloc/iloc#POI" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1LH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1S"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2E1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KME1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1E2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KME2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2E2"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Firstfloor Elevator"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1E2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/iloc/iloc#Elevator", "http://lod.nik.uni-obuda.hu/iloc/iloc#POI" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1RH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1S"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2E2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KME2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1E1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KME1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2E1"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Firstfloor Elevator"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1LH",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/iloc/iloc#POI" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1E1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Firstfloor Left Hallway"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1RH",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/iloc/iloc#POI" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1E2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Firstfloor Right Hallway"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1S",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/iloc/iloc#POI" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1E1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1E2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1LH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1RH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2S"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Firstfloor Stairs"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1WC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Toilet" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1E2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1RH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Firstfloor Toilet"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "General Surgical Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "General Surgical Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ophthalmic Care"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Office" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "General Surgical Outpatient Office"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Coloproctology Outpatient Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Coloproctology Outpatient Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2007",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Office" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Haemophilia - Haemostasis (Secretary Room)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2013",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2E2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ophthalmic Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2014",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2E2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ophthalmic Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2015",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2E1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Burn Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2016",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2E1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Burn Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2017",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Internal Medicine - Hepatology Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2018",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Laboratory" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Haematology Blood Taking"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2019",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Internal Medicine Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2020",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Diabetology Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2021",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Diabetology Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2022",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Diabetology Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2023",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Diabetology Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2024",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Diabetology Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2025",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Anaesthesiology Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2026",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Anaesthesiology Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2027",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Internal Medicine Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2028",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Practitioner Care"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2029",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Diabetology Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2030",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Laboratory" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Diabetology Blood Taking"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2031",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Diabetology Consulting Room (Care)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2032",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#PatientRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Haematology and Angiology Outpatient"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2033",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2E1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2LH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Haemophilia and Haemostasis Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2034",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2E1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Haemophilia and Haemostasis Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2035",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2E1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Haemophilia and Haemostasis Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2036",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2E1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Haemophilia and Haemostasis Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2037",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2E1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Haemophilia and Haemostasis Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2038",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2E1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Haemophilia and Haemostasis Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2039",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2RH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Audiology and Ear Neurology Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2040",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2RH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Audiology and Ear Neurology Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2041",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Neurosurgical Outpatient and Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2042",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Neurosurgical Outpatient and Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2043",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#PatientRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "General Surgery Outpatient"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2044",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#PatientRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "General Surgery Outpatient"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2045",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Laboratory" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Immunology and Allergology - National Porphyria Center"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2046",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Laboratory" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Immunology and Allergology - National Porphyria Center"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2047",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "General Surgery Consulting Room"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2048",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2RH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "General Surgery Outpatient"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2E1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/iloc/iloc#Elevator", "http://lod.nik.uni-obuda.hu/iloc/iloc#POI" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1E1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2LH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2S"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2E2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1E2"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Second Floor Elevator"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2E2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/iloc/iloc#Elevator", "http://lod.nik.uni-obuda.hu/iloc/iloc#POI" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1E2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2RH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2S"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2E1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1E1"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Second Floor Elevator"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2LH",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/iloc/iloc#POI" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2E1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Second Floor Left Hallway"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2RH",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/iloc/iloc#POI" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2E2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Second Floor Right Hallway"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2S",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/iloc/iloc#POI", "http://lod.nik.uni-obuda.hu/iloc/iloc#Stairway" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1S"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2E1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2E2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2LH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2RH"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Second Floor Stairs"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2WC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Toilet" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2E2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2RH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K2S"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Second Floor Toilet"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KA001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#MedicalImagingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KARH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mammography - Stereotactics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KA002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Office" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KARH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mammography - Registration"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KA003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#MedicalImagingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KARH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Breast Ultrasound"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KA004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KARH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Plastering"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KA005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KARH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Plastering"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KA006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#EmergencyRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KARH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Emergency Surgery Clinic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KA007",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KARH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Inpatient Stereotactics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KA013",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KALH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Orthopedics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KA014",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KALH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Emergency Surgery Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KA016",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KALH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cystoscopy Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KA017",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KALH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rheumatology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KA018",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KALH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rheumatology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KA019",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KALH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rheumatology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KA020",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KALH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rheumatology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KA021",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KALH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rheumatology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KA022",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KALH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Densitometry"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KA023",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Office" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KALH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Patient Registration no. 1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KA024",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Office" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KALH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Patient Registration no. 1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KA025",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Office" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KALH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Patient Registration no. 1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KA029",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#EmergencyRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KARH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Emergency Surgery Clinic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KA030",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KARH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Hand Surgery Clinic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KA031",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#EmergencyRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KARH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Emergency Surgery Clinic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAAR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Reception" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KARH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Basement Ambulance Reception"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KACR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Locker" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAS"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cloakroom"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAE1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/iloc/iloc#Elevator", "http://lod.nik.uni-obuda.hu/iloc/iloc#POI" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAEN"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAG"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KALH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAS"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KME1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAE2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KME2"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Basement Elevator"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAE2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/iloc/iloc#Elevator", "http://lod.nik.uni-obuda.hu/iloc/iloc#POI" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAEN"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAG"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KARH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAS"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KME2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAE1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KME1"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Basement Elevator"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAEN",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/iloc/iloc#Entrance", "http://lod.nik.uni-obuda.hu/iloc/iloc#POI" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAE1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAE2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAG"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KALH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KARH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAS"
+  } ],
+	"http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Basement Entrance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAG",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/iloc/iloc#POI" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAE1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAE2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAS"
+  } ],
+	"http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Guards"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Reception" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAEN"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KALH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAS"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Basement Information Desk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KALH",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/iloc/iloc#POI" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAE1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAEN"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAS"
+  } ],
+	"http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Basement Left Hallway"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KARH",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/iloc/iloc#POI" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAE2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAEN"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAS"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Basement Right Hallway"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/iloc/iloc#POI", "http://lod.nik.uni-obuda.hu/iloc/iloc#Stairway" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAE1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAE2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAEN"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAG"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KALH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KARH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Basement Stairs"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KASB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#SnackBar" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAS"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Basement Snack Bar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAWC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Toilet" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KARH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Basement Toilet"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMRH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "General Practitioner Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMRH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Clinical Psychology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMRH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Neurology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMRH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Neurology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMRH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Neurology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMRH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Psychiatric Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM007",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMRH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Psychiatric Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM008",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMRH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Psychiatric Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM016",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Laboratory" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMLH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Cardiology Echo Lab"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM017",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Laboratory" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMLH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Cardiology Echo Lab"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM018",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMLH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Cardiogram Cardiology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM019",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMLH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "General Practitioner Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM020",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMLH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Urology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM021",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMLH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Urology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM022",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMLH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Urology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM023",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMLH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Urology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM024",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMLH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Cardiogram Cardiology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM025",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMLH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Cardiogram Cardiology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM026",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMLH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Gynecology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM027",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMLH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Gynecology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM028",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMLH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Gynecology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM029",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMLH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Cardiogram Cardiology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM030",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMLH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Cardiogram Cardiology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM031",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMLH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Cardiogram Cardiology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM032",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMLH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMS"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Otolaryngology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM033",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMRH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMS"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Plastic Surgery Clinic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM034",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMRH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMS"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Plastic Surgery Clinic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM035",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMRH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Gastroenterology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM036",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMRH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Gastroenterology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM037",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMRH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Plastic Surgery Clinic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM038",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMRH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Plastic Surgery Clinic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM039",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#TreatmentRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMRH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Plastic Surgery Clinic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM040",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMRH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dermatology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM041",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMRH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dermatology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KM042",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#ConsultingRoom" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMRH"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dermatology Consulting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KME1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/iloc/iloc#Elevator", "http://lod.nik.uni-obuda.hu/iloc/iloc#POI" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1E1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAE1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMLH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMS"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KME2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAE2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1E2"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Groundfloor Elevator"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KME2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/iloc/iloc#Elevator", "http://lod.nik.uni-obuda.hu/iloc/iloc#POI" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1E2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAE2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMRH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMS"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KME1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1E1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAE1"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Groundfloor Elevator"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMLH",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/iloc/iloc#POI" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KME1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMS"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Groundfloor Left Hallway"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMMA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Store" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KME2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMRH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMS"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Medical Aids"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMRH",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/iloc/iloc#POI" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KME2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMS"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Groundfloor Right Hallway"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/iloc/iloc#POI", "http://lod.nik.uni-obuda.hu/iloc/iloc#Stairway" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#K1S"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KAS"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KME1"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KME2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMLH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMRH"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Groundfloor Stairs"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMWC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://lod.nik.uni-obuda.hu/hloc#Toilet" ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI" : [ {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KME2"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMRH"
+  }, {
+    "@id" : "http://www.semanticweb.org/nidal/ontologies/2017/3/honved_ontology#KMS"
+  } ],
+  "http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess" : [ {
+    "@id" : "http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Groundfloor Toilet"
+  } ]
+} ]

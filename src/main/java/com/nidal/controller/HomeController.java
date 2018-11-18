@@ -3,6 +3,7 @@ package com.nidal.controller;
 import com.nidal.PoiService;
 import com.nidal.RoomService;
 import com.nidal.loader.Loader;
+import com.nidal.model.GremlinRoom;
 import com.nidal.model.PointOfInterest;
 import com.nidal.model.Room;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -35,7 +37,7 @@ public class HomeController {
     }
 
     @RequestMapping(value = "/generate", method = RequestMethod.POST)
-    public ModelAndView generateData() {
+    public ModelAndView generateData() throws IOException {
         roomService.deleteAllRelationships();
         roomService.deleteAllNodes();
 
@@ -47,6 +49,15 @@ public class HomeController {
 
         List<Room> rooms = new ArrayList<Room>();
         List<PointOfInterest> pois = new ArrayList<PointOfInterest>();
+
+        System.out.println("---------------------------------------");
+        /*GremlinRoom gr = new GremlinRoom();
+        try {
+            gr.createGraphFromJson();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }*/
+        System.out.println("---------------------------------------");
 
         for (Room room : loader.rooms) {
             rooms.add(room);

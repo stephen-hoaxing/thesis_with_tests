@@ -38,5 +38,4 @@ public interface RoomRepo extends GraphRepository<Room> {
             "WHERE ALL (n in nds WHERE n.isAccessibleByWheelchair=true) " +
             "RETURN EXTRACT (item in nds | item.name) as names LIMIT 1")
     public Iterable<Map<String, String[]>> getShortestPathWithDisability(@Param("start") Long start, @Param("end") Long end);
-
 }

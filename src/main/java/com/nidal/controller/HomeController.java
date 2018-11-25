@@ -1,11 +1,18 @@
 package com.nidal.controller;
 
+import com.google.common.collect.Lists;
 import com.nidal.PoiService;
 import com.nidal.RoomService;
+import com.nidal.loader.FileCreator;
 import com.nidal.loader.Loader;
 import com.nidal.model.GremlinRoom;
 import com.nidal.model.PointOfInterest;
 import com.nidal.model.Room;
+import org.apache.tinkerpop.gremlin.process.traversal.Path;
+import org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal;
+import org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversalSource;
+import org.apache.tinkerpop.gremlin.structure.Graph;
+import org.apache.tinkerpop.gremlin.structure.Vertex;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,10 +20,16 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.TransformerException;
+import javax.xml.xpath.XPathExpressionException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+
+import static org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__.hasId;
+import static org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__.out;
 
 /**
  * Created by Nidal on 2017.10.22..
@@ -37,7 +50,7 @@ public class HomeController {
     }
 
     @RequestMapping(value = "/generate", method = RequestMethod.POST)
-    public ModelAndView generateData() throws IOException {
+    public ModelAndView generateData() throws IOException, XPathExpressionException, TransformerException, ParserConfigurationException {
         roomService.deleteAllRelationships();
         roomService.deleteAllNodes();
 
@@ -50,15 +63,6 @@ public class HomeController {
         List<Room> rooms = new ArrayList<Room>();
         List<PointOfInterest> pois = new ArrayList<PointOfInterest>();
 
-        System.out.println("---------------------------------------");
-        /*GremlinRoom gr = new GremlinRoom();
-        try {
-            gr.createGraphFromJson();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }*/
-        System.out.println("---------------------------------------");
-
         for (Room room : loader.rooms) {
             rooms.add(room);
             roomService.saveRoom(room);
@@ -67,6 +71,12 @@ public class HomeController {
         for (PointOfInterest poi : loader.pois) {
             pois.add(poi);
         }
+
+        FileCreator creator = new FileCreator();
+        creator.CreateXmlFile(Lists.newArrayList(roomService.getAllRooms()), Lists.newArrayList(poiService.getAllPois()));
+
+        GremlinRoom gr = new GremlinRoom();
+        gr.createGraphFromXml();
 
         ModelAndView model = new ModelAndView("redirect:/roomlist");
 
@@ -150,6 +160,20 @@ public class HomeController {
             errorModel.addObject("errorMsg", "\"Start\" and \"End\" must be different.");
             return errorModel;
         }
+
+        GremlinRoom gr = new GremlinRoom();
+        try {
+            gr.createGraphFromXml();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        Graph graph = gr.getGraph();
+        GraphTraversalSource g = graph.traversal();
+        GraphTraversal<Vertex, Path> path = g.V(start).repeat(out().simplePath()).until(hasId(end)).path().limit(1);
+        path.toStream().forEach(v -> {
+            System.out.println(v.labels());
+        });
+
         List<String> stations = new ArrayList<String>();
         if (isWheelchair == true) {
             Iterable<Map<String, String[]>> p = roomService.getShortestPathWithAccessFeature(Long.parseLong(start), Long.parseLong(end));

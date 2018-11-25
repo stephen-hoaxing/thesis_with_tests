@@ -1,30 +1,28 @@
 package com.nidal.model;
 
-import com.nidal.RoomService;
-import com.nidal.loader.Loader;
 import org.apache.tinkerpop.gremlin.structure.Graph;
-import org.apache.tinkerpop.gremlin.structure.Vertex;
 import org.apache.tinkerpop.gremlin.structure.io.IoCore;
-import org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerFactory;
 import org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerGraph;
-import org.springframework.beans.factory.annotation.Autowired;
 
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
+import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.OutputStream;
-import java.util.ArrayList;
-import java.util.List;
+import java.io.InputStream;
 
 /**
  * Created by Nidal on 2018.11.18..
  */
 public class GremlinRoom {
 
-    @Autowired
-    RoomService roomService;
+    private Graph graph;
 
-    public void createGraphFromJson() throws IOException {
+    public void createGraphFromXml() throws IOException {
+        InputStream is = new FileInputStream("c:\\Users\\Nidal\\Desktop\\Owls\\gremlin.xml");
+        Graph graph = TinkerGraph.open();
+        graph.io(IoCore.graphml()).reader().create().readGraph(is, graph);
+        this.graph = graph;
     }
 
+    public Graph getGraph() {
+        return graph;
+    }
 }

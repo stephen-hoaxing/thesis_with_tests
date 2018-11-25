@@ -23,14 +23,14 @@ public class RoomEquipment {
 
     private Double height;
 
-    private Double widht;
+    private Double width;
 
     private Integer quantity;
 
-    public RoomEquipment(String name, Double height, Double widht, Integer quantity) {
+    public RoomEquipment(String name, Double height, Double width, Integer quantity) {
         this.name = name;
         this.height = height;
-        this.widht = widht;
+        this.width = width;
         this.quantity = quantity;
     }
 
@@ -66,12 +66,12 @@ public class RoomEquipment {
         this.height = height;
     }
 
-    public Double getWidht() {
-        return widht;
+    public Double getWidth() {
+        return width;
     }
 
-    public void setWidht(Double widht) {
-        this.widht = widht;
+    public void setWidth(Double widht) {
+        this.width = widht;
     }
 
     public Integer getQuantity() {

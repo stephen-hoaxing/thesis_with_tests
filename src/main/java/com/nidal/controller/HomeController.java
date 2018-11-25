@@ -28,8 +28,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import static org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__.hasId;
-import static org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__.out;
+import static org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__.*;
 
 /**
  * Created by Nidal on 2017.10.22..
@@ -74,9 +73,6 @@ public class HomeController {
 
         FileCreator creator = new FileCreator();
         creator.CreateXmlFile(Lists.newArrayList(roomService.getAllRooms()), Lists.newArrayList(poiService.getAllPois()));
-
-        GremlinRoom gr = new GremlinRoom();
-        gr.createGraphFromXml();
 
         ModelAndView model = new ModelAndView("redirect:/roomlist");
 
@@ -154,7 +150,7 @@ public class HomeController {
     }
 
     @RequestMapping(value = "/getnavigationdetails", method = RequestMethod.GET)
-    public ModelAndView getNavigationDetails(@RequestParam("start") String start, @RequestParam("end") String end, @RequestParam(value = "isWheelchair", required = false) boolean isWheelchair) {
+    public ModelAndView getNavigationDetails(@RequestParam("start") String start, @RequestParam("end") String end, @RequestParam(value = "isWheelchair", required = false) boolean isWheelchair) throws IOException {
         if (Long.parseLong(start) == Long.parseLong(end)) {
             ModelAndView errorModel = new ModelAndView("errorpage");
             errorModel.addObject("errorMsg", "\"Start\" and \"End\" must be different.");
@@ -162,17 +158,16 @@ public class HomeController {
         }
 
         GremlinRoom gr = new GremlinRoom();
-        try {
-            gr.createGraphFromXml();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        gr.createGraphFromXml();
         Graph graph = gr.getGraph();
         GraphTraversalSource g = graph.traversal();
-        GraphTraversal<Vertex, Path> path = g.V(start).repeat(out().simplePath()).until(hasId(end)).path().limit(1);
-        path.toStream().forEach(v -> {
-            System.out.println(v.labels());
-        });
+        Vertex from = g.V(start).next();
+        Vertex to = g.V(end).next();
+        List<Path> paths = new ArrayList<Path>();
+        g.V(from).repeat(both().simplePath()).until(is(to)).limit(1).path().by("name").fill(paths);
+        System.out.println("OK");
+
+        paths.stream().forEach(p -> System.out.println(p));
 
         List<String> stations = new ArrayList<String>();
         if (isWheelchair == true) {

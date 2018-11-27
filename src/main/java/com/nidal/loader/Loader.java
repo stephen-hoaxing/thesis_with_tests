@@ -1,7 +1,7 @@
 package com.nidal.loader;
 
-import com.nidal.model.PointOfInterest;
-import com.nidal.model.Room;
+import com.google.common.collect.Lists;
+import com.nidal.model.*;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -87,6 +87,21 @@ public class Loader {
                                 } else {
                                     type = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(type.replaceAll("\\d", "")), " ");
                                     Room room = new Room(id, value, type);
+                                    List<RoomEquipment> roomEquipments = new ArrayList<RoomEquipment>();
+                                    room.setRoomEquipments(roomEquipments);
+                                    if (arr.getJSONObject(i).has("http://www.w3.org/2000/01/rdf-schema#roomEquipment")) {
+                                        JSONArray array = arr.getJSONObject(i).getJSONArray("http://www.w3.org/2000/01/rdf-schema#roomEquipment");
+
+                                        String name = array.getJSONObject(0).get("@name").toString();
+                                        Integer quantity = Integer.parseInt(array.getJSONObject(0).get("@quantity").toString());
+                                        Double width = Double.parseDouble(array.getJSONObject(0).get("@width").toString());
+                                        Double height = Double.parseDouble(array.getJSONObject(0).get("@height").toString());
+
+                                        RoomEquipment roomEquipment = new RoomEquipment(name, height, width, quantity);
+                                        room.getRoomEquipments().add(roomEquipment);
+
+                                        room.setRoomEquipments(roomEquipments);
+                                    }
                                     if (arr.getJSONObject(i).has("http://lod.nik.uni-obuda.hu/iloc/iloc#hasAccess")) {
                                         room.setAccessibleByWheelchair(true);
                                     } else {

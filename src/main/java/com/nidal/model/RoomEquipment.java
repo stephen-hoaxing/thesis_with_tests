@@ -16,9 +16,6 @@ public class RoomEquipment {
     @GraphId
     private Long id;
 
-    @Relationship(type = "HAS_EQUIPMENT", direction = Relationship.UNDIRECTED)
-    private List<RoomEquipment> roomEquipments;
-
     private String name;
 
     private Double height;
@@ -40,14 +37,6 @@ public class RoomEquipment {
 
     public void setId(Long id) {
         this.id = id;
-    }
-
-    public List<RoomEquipment> getRoomEquipments() {
-        return roomEquipments;
-    }
-
-    public void setRoomEquipments(List<RoomEquipment> roomEquipments) {
-        this.roomEquipments = roomEquipments;
     }
 
     public String getName() {

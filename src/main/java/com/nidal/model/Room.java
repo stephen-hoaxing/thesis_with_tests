@@ -26,6 +26,9 @@ public class Room {
 
     private boolean isAccessibleByWheelchair;
 
+    @Relationship(type = "HAS_EQUIPMENT", direction = Relationship.OUTGOING)
+    private List<RoomEquipment> roomEquipments;
+
     public boolean isAccessibleByWheelchair() {
         return isAccessibleByWheelchair;
     }
@@ -81,5 +84,13 @@ public class Room {
 
     public void setRoomType(String roomType) {
         this.roomType = roomType;
+    }
+
+    public List<RoomEquipment> getRoomEquipments() {
+        return roomEquipments;
+    }
+
+    public void setRoomEquipments(List<RoomEquipment> roomEquipments) {
+        this.roomEquipments = roomEquipments;
     }
 }

@@ -37,6 +37,19 @@
                 </c:forEach>
             </td>
         </tr>
+        <c:if test="${not empty room.getRoomEquipments()}">
+        <tr>
+            <td>Room Equipments</td>
+            <td>
+                <c:forEach var="roomEquipment" items="${room.roomEquipments}">
+                    Name: ${roomEquipment.name}<br>
+                    Width: ${roomEquipment.width}m<br>
+                    Height: ${roomEquipment.height}m<br>
+                    Quantity: ${roomEquipment.quantity}<br>
+                </c:forEach>
+            </td>
+        </tr>
+        </c:if>
     </table>
 </div>
 <script src="webjars/jquery/1.9.1/jquery.min.js"></script>

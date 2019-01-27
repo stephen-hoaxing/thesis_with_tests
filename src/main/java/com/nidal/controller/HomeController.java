@@ -2,6 +2,7 @@ package com.nidal.controller;
 
 import com.google.common.collect.Lists;
 import com.nidal.PoiService;
+import com.nidal.RoomEquipmentService;
 import com.nidal.RoomService;
 import com.nidal.loader.FileCreator;
 import com.nidal.loader.Loader;
@@ -43,6 +44,9 @@ public class HomeController {
     @Autowired
     PoiService poiService;
 
+    @Autowired
+    RoomEquipmentService roomEquipmentService;
+
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public ModelAndView home() {
         return new ModelAndView("test");
@@ -55,6 +59,9 @@ public class HomeController {
 
         poiService.deleteAllRelationships();
         poiService.deleteAllNodes();
+
+        roomEquipmentService.deleteAllRelationships();
+        roomEquipmentService.deleteAllNodes();
 
         Loader loader = new Loader();
         loader.Load();
@@ -166,6 +173,7 @@ public class HomeController {
         List<Path> paths = new ArrayList<Path>();
         g.V(from).repeat(both().simplePath()).until(is(to)).limit(1).path().by("name").fill(paths);
         System.out.println("OK");
+        System.out.println(g);
 
         paths.stream().forEach(p -> System.out.println(p));
 

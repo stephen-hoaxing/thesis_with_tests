@@ -92,13 +92,15 @@ public class Loader {
                                     if (arr.getJSONObject(i).has("http://www.w3.org/2000/01/rdf-schema#roomEquipment")) {
                                         JSONArray array = arr.getJSONObject(i).getJSONArray("http://www.w3.org/2000/01/rdf-schema#roomEquipment");
 
-                                        String name = array.getJSONObject(0).get("@name").toString();
-                                        Integer quantity = Integer.parseInt(array.getJSONObject(0).get("@quantity").toString());
-                                        Double width = Double.parseDouble(array.getJSONObject(0).get("@width").toString());
-                                        Double height = Double.parseDouble(array.getJSONObject(0).get("@height").toString());
+                                        for (int v = 0; v < array.length(); v++) {
+                                            String name = array.getJSONObject(v).get("@name").toString();
+                                            Integer quantity = Integer.parseInt(array.getJSONObject(v).get("@quantity").toString());
+                                            Double width = Double.parseDouble(array.getJSONObject(v).get("@width").toString());
+                                            Double height = Double.parseDouble(array.getJSONObject(v).get("@height").toString());
 
-                                        RoomEquipment roomEquipment = new RoomEquipment(name, height, width, quantity);
-                                        room.getRoomEquipments().add(roomEquipment);
+                                            RoomEquipment roomEquipment = new RoomEquipment(name, height, width, quantity);
+                                            room.getRoomEquipments().add(roomEquipment);
+                                        }
 
                                         room.setRoomEquipments(roomEquipments);
                                     }

@@ -1,6 +1,7 @@
 package com.nidal.controller;
 
 import com.google.common.collect.Lists;
+import com.nidal.EquipmentPropertyService;
 import com.nidal.PoiService;
 import com.nidal.RoomEquipmentService;
 import com.nidal.RoomService;
@@ -47,6 +48,9 @@ public class HomeController {
     @Autowired
     RoomEquipmentService roomEquipmentService;
 
+    @Autowired
+    EquipmentPropertyService equipmentPropertyService;
+
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public ModelAndView home() {
         return new ModelAndView("test");
@@ -62,6 +66,9 @@ public class HomeController {
 
         roomEquipmentService.deleteAllRelationships();
         roomEquipmentService.deleteAllNodes();
+
+        equipmentPropertyService.deleteAllRelationships();
+        equipmentPropertyService.deleteAllNodes();
 
         Loader loader = new Loader();
         loader.Load();

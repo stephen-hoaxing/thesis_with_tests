@@ -18,17 +18,15 @@ public class RoomEquipment {
 
     private String name;
 
-    private Double height;
+    @Relationship(type = "HAS_PROPERTY", direction = Relationship.UNDIRECTED)
+    private List<EquipmentProperty> equipmentProperties;
 
-    private Double width;
+    public RoomEquipment() {
+    }
 
-    private Integer quantity;
-
-    public RoomEquipment(String name, Double height, Double width, Integer quantity) {
+    public RoomEquipment(String name, List<EquipmentProperty> equipmentProperties) {
         this.name = name;
-        this.height = height;
-        this.width = width;
-        this.quantity = quantity;
+        this.equipmentProperties = equipmentProperties;
     }
 
     public Long getId() {
@@ -47,27 +45,11 @@ public class RoomEquipment {
         this.name = name;
     }
 
-    public Double getHeight() {
-        return height;
+    public List<EquipmentProperty> getEquipmentProperties() {
+        return equipmentProperties;
     }
 
-    public void setHeight(Double height) {
-        this.height = height;
-    }
-
-    public Double getWidth() {
-        return width;
-    }
-
-    public void setWidth(Double widht) {
-        this.width = widht;
-    }
-
-    public Integer getQuantity() {
-        return quantity;
-    }
-
-    public void setQuantity(Integer quantity) {
-        this.quantity = quantity;
+    public void setEquipmentProperties(List<EquipmentProperty> equipmentProperties) {
+        this.equipmentProperties = equipmentProperties;
     }
 }

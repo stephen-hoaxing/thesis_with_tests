@@ -98,7 +98,11 @@ public class Loader {
                                             Double width = Double.parseDouble(array.getJSONObject(v).get("@width").toString());
                                             Double height = Double.parseDouble(array.getJSONObject(v).get("@height").toString());
 
-                                            RoomEquipment roomEquipment = new RoomEquipment(name, height, width, quantity);
+                                            List<EquipmentProperty> equipmentProperties = new ArrayList<EquipmentProperty>();
+                                            equipmentProperties.add(new EquipmentProperty("width", width, "m"));
+                                            equipmentProperties.add(new EquipmentProperty("height", height, "m"));
+                                            equipmentProperties.add(new EquipmentProperty("quantity", quantity, "piece(s)"));
+                                            RoomEquipment roomEquipment = new RoomEquipment(name, equipmentProperties);
                                             room.getRoomEquipments().add(roomEquipment);
                                         }
 

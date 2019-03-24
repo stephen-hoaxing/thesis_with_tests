@@ -27,7 +27,7 @@ public class Loader {
         public static String readFile() {
             String result = "";
             try {
-                BufferedReader reader = new BufferedReader(new FileReader("c:\\Users\\Nidal\\Desktop\\Owls\\honved_json_final.json"));
+                BufferedReader reader = new BufferedReader(new FileReader("/Users/nidalchalhoub/Downloads/thesis_with_tests/src/main/resources/honved_json_final.json"));
                 StringBuilder builder = new StringBuilder();
                 String line = reader.readLine();
                 while (line != null) {

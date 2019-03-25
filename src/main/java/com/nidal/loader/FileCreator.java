@@ -168,7 +168,7 @@ public class FileCreator {
         TransformerFactory transformerFactory = TransformerFactory.newInstance();
         Transformer transformer = transformerFactory.newTransformer();
         DOMSource source = new DOMSource(doc);
-        StreamResult result = new StreamResult(new File("c:\\Users\\Nidal\\Desktop\\Owls\\gremlin.xml"));
+        StreamResult result = new StreamResult(new File("/Users/nidalchalhoub/Downloads/thesis_with_tests/src/main/resources/gremlin.xml"));
 
         transformer.transform(source, result);
 

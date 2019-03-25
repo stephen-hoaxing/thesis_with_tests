@@ -16,7 +16,7 @@ public class GremlinRoom {
     private Graph graph;
 
     public void createGraphFromXml() throws IOException {
-        InputStream is = new FileInputStream("c:\\Users\\Nidal\\Desktop\\Owls\\gremlin.xml");
+        InputStream is = new FileInputStream("/Users/nidalchalhoub/Downloads/thesis_with_tests/src/main/resources/gremlin.xmll");
         Graph graph = TinkerGraph.open();
         graph.io(IoCore.graphml()).reader().create().readGraph(is, graph);
         this.graph = graph;

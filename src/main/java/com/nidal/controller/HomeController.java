@@ -171,7 +171,7 @@ public class HomeController {
             return errorModel;
         }
 
-        GremlinRoom gr = new GremlinRoom();
+        /*GremlinRoom gr = new GremlinRoom();
         gr.createGraphFromXml();
         Graph graph = gr.getGraph();
         GraphTraversalSource g = graph.traversal();
@@ -182,7 +182,7 @@ public class HomeController {
         System.out.println("OK");
         System.out.println(g);
 
-        paths.stream().forEach(p -> System.out.println(p));
+        paths.stream().forEach(p -> System.out.println(p));*/
 
         List<String> stations = new ArrayList<String>();
         if (isWheelchair == true) {

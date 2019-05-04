@@ -182,7 +182,7 @@ public class HomeController {
         System.out.println("OK");
         System.out.println(g);
 
-        paths.stream().forEach(p -> System.out.println(p));
+        paths.stream().forEach(System.out::println);
 
         List<String> stations = new ArrayList<String>();
         if (isWheelchair == true) {

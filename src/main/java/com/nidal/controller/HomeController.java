@@ -179,7 +179,7 @@ public class HomeController {
         Vertex to = g.V(end).next();
         List<Path> paths = new ArrayList<Path>();
         g.V(from).repeat(both().simplePath()).until(is(to)).limit(1).path().by("name").fill(paths);
-        System.out.println("OK. Created.");
+        System.out.println("OK. Created.\n");
         System.out.println(g);
 
         paths.stream().forEach(System.out::println);

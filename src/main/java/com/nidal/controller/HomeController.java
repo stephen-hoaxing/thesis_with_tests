@@ -27,6 +27,7 @@ import javax.xml.transform.TransformerException;
 import javax.xml.xpath.XPathExpressionException;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
@@ -141,15 +142,19 @@ public class HomeController {
     }
 
     private void addStationsToList(Iterable<Map<String, String[]>> p, List<String> list) {
-        for (Map<String, String[]> act : p) {
+        p.forEach(path -> {
+            path.entrySet().stream().forEach(e -> {
+                Arrays.stream(e.getValue()).forEach(a -> list.add(a));
+            });
+        });
+        /*for (Map<String, String[]> act : p) {
             for (Map.Entry<String, String[]> entry : act.entrySet()) {
-                String key = entry.getKey();
                 String[] arr = entry.getValue();
                 for (int i = 0; i < arr.length; i++) {
                     list.add(arr[i]);
                 }
             }
-        }
+        }*/
     }
 
     @RequestMapping(value = "/getnavigationdetails", method = RequestMethod.GET)

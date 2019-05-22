@@ -124,17 +124,6 @@ public class HomeController {
 
     @RequestMapping(value = "/roominfo", method = RequestMethod.GET)
     public ModelAndView getRoomInfo(@RequestParam("roomid") String roomid) {
-        /*Iterable<Map<String, String[]>> p = roomService.getShortestPath("Entrance", "Hand Surgery");
-        for (Map<String, String[]> act : p) {
-            for (Map.Entry<String, String[]> entry : act.entrySet()) {
-                String key = entry.getKey();
-                String[] arr = entry.getValue();
-                for (int i = 0; i < arr.length; i++) {
-                    System.out.println(arr[i]);
-                }
-            }
-        }*/
-
         ModelAndView model = new ModelAndView("roomdetails");
         Room room = roomService.getRoomById(Long.parseLong(roomid));
         model.addObject("room", room);

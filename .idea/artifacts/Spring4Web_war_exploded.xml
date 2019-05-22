@@ -1,19 +1,26 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="Spring4Web:war exploded">
-    <output-path>$PROJECT_DIR$/target/Spring4Web-1.0-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/target/thesis</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>Spring4Web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="Spring4Web" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.18.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
           <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.0.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.0.RELEASE" />
-          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-neo4j:4.1.2.RELEASE" />
@@ -59,7 +66,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/Spring4Web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/thesis/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="Spring4Web/web/Web" />
     </root>

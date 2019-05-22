@@ -144,17 +144,9 @@ public class HomeController {
     private void addStationsToList(Iterable<Map<String, String[]>> p, List<String> list) {
         p.forEach(path -> {
             path.entrySet().stream().forEach(e -> {
-                Arrays.stream(e.getValue()).forEach(a -> list.add(a));
+                list.addAll(Arrays.asList(e.getValue()));
             });
         });
-        /*for (Map<String, String[]> act : p) {
-            for (Map.Entry<String, String[]> entry : act.entrySet()) {
-                String[] arr = entry.getValue();
-                for (int i = 0; i < arr.length; i++) {
-                    list.add(arr[i]);
-                }
-            }
-        }*/
     }
 
     @RequestMapping(value = "/getnavigationdetails", method = RequestMethod.GET)

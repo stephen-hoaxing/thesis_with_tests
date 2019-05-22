@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.List;
 import java.util.Map;
 
 /**
@@ -49,10 +48,10 @@ public class RoomService {
         return roomRepo.getShortestPathWithDisability(start, end);
     }
 
-    @Transactional
+    /*@Transactional
     public Room getRoomByName(String name) {
         return roomRepo.getRoomByName(name);
-    }
+    }*/
 
     @Transactional
     public Room getRoomById(Long id) {

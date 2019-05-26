@@ -1,12 +1,8 @@
 package com.nidal.loader;
 
-import com.google.common.collect.Lists;
 import com.nidal.model.*;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import com.nidal.model.PointOfInterest;
@@ -14,7 +10,7 @@ import com.nidal.model.Room;
 import org.apache.commons.lang3.StringUtils;
 import org.json.JSONArray;
 import org.json.JSONObject;
-import org.apache.commons.lang3.StringUtils.*;
+import org.springframework.util.ResourceUtils;
 
 /**
  * Created by Nidal on 2017.11.11..
@@ -27,7 +23,7 @@ public class Loader {
         public static String readFile() {
             String result = "";
             try {
-                BufferedReader reader = new BufferedReader(new FileReader("/Users/nidalchalhoub/Downloads/thesis_with_tests/src/main/resources/honved_json_final.json"));
+                BufferedReader reader = new BufferedReader(new FileReader(ResourceUtils.getFile("classpath:honved_json_final.json")));
                 StringBuilder builder = new StringBuilder();
                 String line = reader.readLine();
                 while (line != null) {

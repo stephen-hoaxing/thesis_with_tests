@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  */
 
 @Configuration
-@PropertySource("classpath:application.properties")
+@PropertySource("classpath:application-local.properties")
 @EnableNeo4jRepositories(basePackages = "com.nidal.repo")
 @EnableTransactionManagement
 public class DatabaseConfig extends Neo4jConfiguration {
@@ -28,6 +28,9 @@ public class DatabaseConfig extends Neo4jConfiguration {
     @Value("${neo4j.port}")
     private String port;
 
+    @Value("${neo4j.host}")
+    private String host;
+
     @Bean
     public static PropertySourcesPlaceholderConfigurer propertyConfig () {
         return new PropertySourcesPlaceholderConfigurer();
@@ -40,7 +43,7 @@ public class DatabaseConfig extends Neo4jConfiguration {
 
     @Bean
     public org.neo4j.ogm.config.Configuration getConfiguration() {
-        String uri = String.format("http://%s:%s@localhost:%s", userName, password, port);
+        String uri = String.format("http://%s:%s@%s:%s", userName, password, host, port);
         org.neo4j.ogm.config.Configuration configuration = new org.neo4j.ogm.config.Configuration();
         configuration
                 .driverConfiguration()

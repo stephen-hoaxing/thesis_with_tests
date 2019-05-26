@@ -1,20 +1,12 @@
 package com.nidal.controller;
 
-import com.google.common.collect.Lists;
 import com.nidal.EquipmentPropertyService;
 import com.nidal.PoiService;
 import com.nidal.RoomEquipmentService;
 import com.nidal.RoomService;
-import com.nidal.loader.FileCreator;
 import com.nidal.loader.Loader;
-import com.nidal.model.GremlinRoom;
 import com.nidal.model.PointOfInterest;
 import com.nidal.model.Room;
-import org.apache.tinkerpop.gremlin.process.traversal.Path;
-import org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal;
-import org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversalSource;
-import org.apache.tinkerpop.gremlin.structure.Graph;
-import org.apache.tinkerpop.gremlin.structure.Vertex;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -30,8 +22,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
-
-import static org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__.*;
 
 /**
  * Created by Nidal on 2017.10.22..
@@ -85,9 +75,6 @@ public class HomeController {
         for (PointOfInterest poi : loader.pois) {
             pois.add(poi);
         }
-
-        FileCreator creator = new FileCreator();
-        creator.CreateXmlFile(Lists.newArrayList(roomService.getAllRooms()), Lists.newArrayList(poiService.getAllPois()));
 
         ModelAndView model = new ModelAndView("redirect:/roomlist");
 
@@ -156,19 +143,6 @@ public class HomeController {
             errorModel.addObject("errorMsg", "\"Start\" and \"End\" must be different.");
             return errorModel;
         }
-
-        GremlinRoom gr = new GremlinRoom();
-        gr.createGraphFromXml();
-        Graph graph = gr.getGraph();
-        GraphTraversalSource g = graph.traversal();
-        Vertex from = g.V(start).next();
-        Vertex to = g.V(end).next();
-        List<Path> paths = new ArrayList<Path>();
-        g.V(from).repeat(both().simplePath()).until(is(to)).limit(1).path().by("name").fill(paths);
-        System.out.println("OK. Created.\nCreated.\nJenkins CSRF enabled or not.");
-        System.out.println(g);
-
-        paths.stream().forEach(System.out::println);
 
         List<String> stations = new ArrayList<String>();
         if (isWheelchair == true) {

@@ -2,6 +2,7 @@ package com.nidal.loader;
 
 import com.nidal.model.PointOfInterest;
 import com.nidal.model.Room;
+import org.springframework.util.ResourceUtils;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -11,7 +12,6 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
@@ -20,18 +20,15 @@ import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
-import java.io.File;
-import java.util.ArrayList;
+import java.io.FileNotFoundException;
 import java.util.List;
-import java.util.function.BooleanSupplier;
-import java.util.stream.Collectors;
 
 /**
  * Created by Nidal on 2018.11.22..
  */
 public class FileCreator {
 
-    public void CreateXmlFile(List<Room> rooms, List<PointOfInterest> pois) throws ParserConfigurationException, TransformerException, XPathExpressionException {
+    public void CreateXmlFile(List<Room> rooms, List<PointOfInterest> pois) throws ParserConfigurationException, TransformerException, XPathExpressionException, FileNotFoundException {
         DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder docBuilder = documentBuilderFactory.newDocumentBuilder();
 
@@ -168,7 +165,7 @@ public class FileCreator {
         TransformerFactory transformerFactory = TransformerFactory.newInstance();
         Transformer transformer = transformerFactory.newTransformer();
         DOMSource source = new DOMSource(doc);
-        StreamResult result = new StreamResult(new File("/Users/nidalchalhoub/Downloads/thesis_with_tests/src/main/resources/gremlin.xml"));
+        StreamResult result = new StreamResult(ResourceUtils.getFile("classpath:gremlin.xml"));
 
         transformer.transform(source, result);
 

@@ -9,7 +9,16 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
     <build>
-        <finalName>thesis</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.2.2</version>
+                <configuration>
+                    <warName>thesis</warName>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
 
     <properties>

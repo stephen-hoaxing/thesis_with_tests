@@ -22,7 +22,8 @@ services:
     ports:
       - 8089:8080
     environment:
-      - DATABASE_HOST=db
+      - DATABASE_HOST=db #readme: NOT localhost
       - DATABASE_USERNAME=neo4j
       - DATABASE_PASSWORD=123456
       - DATABASE_PORT=7474
+      - "JAVA_OPTS=-Dspring.profiles.active=container -Dspring.config.location=classpath:resources/application.properties"

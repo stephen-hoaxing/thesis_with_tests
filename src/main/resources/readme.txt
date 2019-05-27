@@ -12,3 +12,6 @@ before build add "Build Artifact", select Spring4Web.war exploded
 adjust Java version to at least 8
 
 add Spring Core to pom.xml (but it is s already there)
+
+docker-compose: host (in databases) is NOT localhost, it is the dependency (db)
+docker-compose up: do not forget to change environment to "container"
